@@ -1,5 +1,3 @@
-package Solutions;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -82,7 +80,7 @@ class CheckNode implements Comparator<Node>
  *
  * @author Shreya
  */
-public class Solution1 
+public class WaterFlow
 {
 
     /**
@@ -98,7 +96,7 @@ public class Solution1
             PrintWriter pWriter = new PrintWriter(new FileWriter(output));
             
             
-            file = new Scanner(new FileReader("C:/Users/Shreya/Documents/NetBeansProjects/AI/src/ucs_input.txt"));
+            file = new Scanner(new FileReader("test_cases/test1.txt"));
             
             
             int T=Integer.parseInt(file.nextLine());
